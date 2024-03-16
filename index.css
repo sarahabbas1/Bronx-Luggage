@@ -1,0 +1,98 @@
+body{
+    background-image: url(bg.jpg);
+}
+
+.container1{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(loader.jpg);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+}
+
+.loader{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    border-top: 10px solid #97cf8a;
+    border-bottom: 10px solid #97cf8a;
+    border-left: 10px solid #555555;
+    border-right: 10px solid #555555;
+    animation: rotate 5s  infinite linear;
+    margin-left: -250px;
+    margin-top: 10px;
+}
+
+.load{
+color: rgb(16, 33, 34);
+font-family: 'Carattere', cursive;
+font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Playfair Display', serif;
+font-size: 30px;
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
+}
+.container {
+  display: flex;
+}
+
+.image {
+  height: 430px;
+  margin-top: 30px;
+  background-image: url(bg1.jpg);
+  width: 50%;
+  /* border: 1px solid black; */
+  border-radius: 20px;
+}
+
+h2{
+    color: #333333;
+    font-family: 'Montserrat Alternates', sans-serif;
+font-family: 'Playfair Display', serif;
+font-size: 35px;
+}
+.content {
+  margin-top: 100px;
+  margin-left: 40px;
+  width: 50%;
+  /* border: 1px solid black; */
+}
+
+.para {
+  text-align: center;
+  color: #66510c;
+  font-family: 'Montserrat Alternates', sans-serif;
+  font-weight: bold;
+}
+
+.carousel.slide{
+    margin-top: 50px;
+    margin-bottom: 100px;
+    border: 10px solid rgb(204, 201, 201);
+    background-color: rgb(204, 201, 201);
+    border-radius: 10px;
+}
+.carousel-control-prev, .carousel-control-next {
+    background-color: #97cf8a;
+    color: black;
+    height: 50px;
+    width: 50px;
+    margin-top: 250px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+.carousel-control-prev:hover, .carousel-control-next:hover {
+    background-color: #FFEB80;
+}

@@ -1,0 +1,39 @@
+h2{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 100px;
+    color:goldenrod;
+    
+}
+nav{
+    background-color: rgba(0, 128, 0, 0.315);;
+}
+.womens{
+    /* padding: 3px; */
+margin-bottom: 22px;
+
+}
+.gallery{
+    background-color:#FEFED5;
+}
+.men{
+    margin-bottom: 22px;
+    padding: 3px;
+}
+
+.mens{
+    margin-bottom: 22px;
+    padding: 3px;
+}
+
+.collage{
+        margin-bottom: 22px; 
+        padding: 3px;
+    }
+
+.item1{
+    margin-bottom: 22px;
+    padding: 5px;
+}
+
+
+    

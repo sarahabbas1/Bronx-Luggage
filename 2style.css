@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+    *{
+        margin: 0;
+        padding: 0;
+        font-family: 'Poppins', sans-serif;
+    }
+    .a{
+        display: flex;
+        margin-top: 80px;
+    }
+    .sec1, .sec2{
+        height: 90vh;
+        width: 50%;
+    }
+    .sec1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+    }
+    .sec2{
+        padding: 20px 0px 0px;
+        border: 1px solid black;
+        margin-right: 20px;
+    }
+    .image{
+        height: 500px;
+        width: 70%;
+        border: 1px solid black;
+        background-image: url('CC.png');
+        background-size: 100% 100%;
+    }
+    .head{
+        text-align: center;
+    }
+    .b{
+        display: flex;
+        justify-content: center;
+    }
+    .c{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+        height: 30vh;
+        width: 80%;
+        border: 1px solid black;
+    }
+    hr{
+        margin-top: 50px;
+    }
+    .text{
+        font-size: .83rem;
+        text-align: center;
+        padding-top: 30px;
+    }
+    .price{
+        padding-top: 20px;
+        display: flex;
+        width: 33%;
+        justify-content: space-around;
+    }
+    .red{
+        color: red;
+    }
+    .green{
+        color: green;
+    }
+    .button{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        /* border: 1px solid black; */
+        height: 20vh;
+    }
+    .btn{
+        text-transform: uppercase;
+        width: 80%;
+        text-align: center;
+        border: 1px solid black;
+        margin-top: 10px;
+        padding: 10px 0px;
+        text-decoration: none;
+        font-size: 12px;
+    }
+    .btn1{
+        color: black;
+    }
+    .btn1:active{
+        background-color: black;
+        color: white;
+    }
+    .btn2{
+        background-color: black;
+        color: white;
+    }
+    .btn2:hover{
+        background-color: rgb(20, 17, 2);
+        color: white;
+    }

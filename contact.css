@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.form{
+    margin-top: 30px;
+    justify-content: center;
+    margin-left: 100px;
+}
+.info{
+    margin-top: 30px;
+    margin-left: 100px;
+    
+}
+.map{
+    margin-top: 30px;
+    margin-left: 100px;
+}

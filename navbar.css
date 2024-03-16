@@ -1,0 +1,14 @@
+.navbar-bg{
+    background-color: rgba(0, 128, 0, 0.315);
+    }
+    
+    .navbar-bg a{
+    color: rgb(0, 0, 0);
+    margin: 0px 50px;
+    }
+    .h1:hover {
+        transition: transform 0.2s;
+        transform: scale(1.2);
+        
+
+    }
